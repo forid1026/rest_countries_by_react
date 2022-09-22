@@ -6,14 +6,18 @@ const Country = (props) => {
 console.log('unique', props.country);
 
   return (
-    <div className="country">
-      <p>{props.country.numericCode}</p>
-      <img src={flags.png} alt="" />
-      <h2>Name: {name}</h2>
-      <h3>Population: {population}</h3>
-      <h3>Region: {region}</h3>
-    </div>
-  );
+          <div className="col-md-4 mb-5">
+            <div class="card p-2">
+            <img src={flags.png} class="card-img-top" style={{height:'180px'}} alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Name: {name}</h5>
+                <p class="card-text">Population: {population}</p>
+                <p class="card-text">Region: {region}</p>
+              </div>
+          </div>
+          </div>
+       
+      );
 };
 
 export default Country;
