@@ -26,11 +26,3 @@ const Countries = () => {
 };
 
 export default Countries;
-
-
-// <h2 class="mt-5">Total Number Of Countries: {countries.length}</h2>
-    //   <div className="countries-wrapper">
-    //   {
-    //       countries.map(country=> <Country country={country} key={i++}></Country> )
-    //   }
-    // </div>
